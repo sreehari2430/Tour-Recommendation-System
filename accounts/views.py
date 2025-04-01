@@ -14,7 +14,7 @@ import google.generativeai as genai
 import requests
 
 # Configure Google Generative AI with your API key
-genai.configure(api_key="AIzaSyDtz1XD7VPh-QVeo2eQacy_c9oKaO9tL2Q")
+genai.configure(api_key="")
 
 def gencon(place_name, user_input):
     # Use Google Gemini AI for generating content
